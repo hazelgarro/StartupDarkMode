@@ -123,6 +123,10 @@
     background: var(--clr-blue-400);
 }
 
+.text-users{
+    color: var(--clr-white);
+}
+
 .circular-nav{
     border:none;
     background: var(--clr-blue-320);

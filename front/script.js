@@ -35,8 +35,17 @@ function changeTheme() {
     for (let i = 0; i < elementsPOpacity.length; i++) {
         elementsPOpacity[i].classList.toggle("text-ligth-theme-opacity");
     } 
-    
 
+    const elementsPUsers = document.getElementsByClassName("text-users");
+    for (let i = 0; i < elementsPUsers.length; i++) {
+        elementsPUsers[i].classList.toggle("text-users-light");
+    } 
+
+    const elementsButtonBlue = document.getElementsByClassName("curved-blue");
+    for (let i = 0; i < elementsButtonBlue.length; i++) {
+        elementsButtonBlue[i].classList.toggle("curved-blue-light");
+    } 
+   
     const elementsTestimonial = document.getElementsByClassName("testimonial");
     for (let i = 0; i < elementsTestimonial.length; i++) {
         elementsTestimonial[i].classList.toggle("testimonial-light");

@@ -98,3 +98,19 @@ body.dark{
     border: none;
 }
 
+.text-users-light{
+    color: var(--clr-blue-320);
+}
+
+.curved-blue-light{
+    border-color: var(--clr-blue-200);
+    background: var(--clr-blue-200);
+    color: var(--clr-white) !important;
+}
+
+.curved-blue-light:hover{
+    border-color: var(--clr-black);
+    background: transparent;
+    color: var(--clr-blue-320) !important;
+}
+
