@@ -12,7 +12,7 @@ switchButton.addEventListener('click', () => {
 
 function changeTheme() {
     //selector de elementos por nombre de etiqueta
-    var element = document.getElementsByTagName("h1")[0];
+    let element = document.getElementsByTagName("h1")[0];
     element.classList.toggle("text-ligth-theme");
     
     //selector de elementos por nombre de clase
